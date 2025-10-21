@@ -8,6 +8,7 @@ import DatasetList from "./pages/DatasetList";
 import DatasetDetail from "./pages/DatasetDetail";
 import Auth from "./pages/Auth";
 import Admin from "./pages/Admin";
+import Developer from "./pages/Developer";
 import AdminDatasets from "./pages/admin/AdminDatasets";
 import AdminDatasetAdd from "./pages/admin/AdminDatasetAdd";
 import AdminDatasetEdit from "./pages/admin/AdminDatasetEdit";
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/dataset-list" element={<DatasetList />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/developer" element={<Developer />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/datasets" element={<AdminDatasets />} />
           <Route path="/admin/datasets/add" element={<AdminDatasetAdd />} />
